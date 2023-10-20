@@ -1,0 +1,27 @@
+ /* Block */
+ .paragraph {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  /* Element */
+  .paragraph__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* Modifier */
+  .paragraph--red {
+    background-color: red;
+  }
+
+  /* Modifier */
+  .paragraph--green {
+    background-color: green;
+  }
+
+  /* Modifier */
+  .paragraph--blue {
+    background-color: blue;
+  }

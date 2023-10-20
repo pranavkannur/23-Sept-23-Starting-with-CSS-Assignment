@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with Multiple Paragraphs</title>
+        <!-- External CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="paragraph paragraph--red">
+        <h2 class="paragraph__title">Paragraph 1</h2>
+        <p>This is the first paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis corporis tempore necessitatibus laborum est, ratione repellat labore ad, ipsum cumque excepturi architecto repellendus? Officia ipsam a aspernatur reprehenderit nisi.</p>
+        <!-- i used the lorem tag for dummy text -->
+      </div>
+    
+      <div class="paragraph paragraph--green">
+        <h2 class="paragraph__title">Paragraph 2</h2>
+        <p>This is the second paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iste perferendis explicabo molestiae voluptas eligendi sequi nesciunt esse earum ea, placeat consequuntur aperiam velit quod quo commodi sit, aut quidem.</p>
+         <!-- i used the lorem tag for dummy text -->
+      </div>
+    
+      <div class="paragraph paragraph--blue">
+        <h2 class="paragraph__title">Paragraph 3</h2>
+        <p>This is the third paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. In et aperiam excepturi. Repudiandae molestias totam natus praesentium, architecto temporibus voluptas eos minima quod dolores sed iste quo voluptates esse eum!</p>
+         <!-- i used the lorem tag for dummy text -->
+      </div>
+</body>
+</html>
+<!--
+    In this example, I have used div tags to create three sections on the page, each containing a unique paragraph with a distinct style. I have followed the BEM naming convention to name the classes. The block is named “paragraph”, the element is named “paragraph__title”, and the modifiers are named “paragraph–red”, “paragraph–green”, and “paragraph–blue”. The block name defines the namespace for its elements and modifiers. The element name is separated from the block name by a double underscore ( __ ). The modifier name is separated from the block or element name by a single underscore ( _ ).
+-->
